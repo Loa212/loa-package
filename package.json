@@ -1,6 +1,6 @@
 {
   "name": "loa-package-demo",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "A demo package template",
   "license": "MIT",
   "keywords": [
@@ -17,7 +17,7 @@
     "lint": "tsc --noEmit",
     "local-release": "changeset version && changeset publish",
     "prepublishOnly": "npm run ci",
-    "release": "bumpp --commit --push --tag",
+    "pre-release": "bumpp",
     "ci-release": "npm run changeset publish",
     "test": "vitest run"
   },
