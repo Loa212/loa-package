@@ -7,6 +7,9 @@
     "demo",
     "typescript"
   ],
+  "scripts": {
+    "build": "tsc"
+  },
   "homepage": "https://github.com/Loa212/loa-package",
   "bugs": {
     "url": "https://github.com/Loa212/loa-package/issues"
