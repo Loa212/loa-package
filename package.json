@@ -18,7 +18,7 @@
     "local-release": "changeset version && changeset publish",
     "prepublishOnly": "npm run ci",
     "pre-release": "bumpp",
-    "ci-release": "npm run changeset publish",
+    "ci-release": "changeset publish",
     "test": "vitest run"
   },
   "homepage": "https://github.com/Loa212/loa-package",
