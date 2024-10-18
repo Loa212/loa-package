@@ -11,11 +11,11 @@ This is a simple example of a package and it has little to no functionality.
 ## Usage
 
 ```typescript
-import { add } from 'loa-package-demo';
-import { subtract } from 'loa-package-demo';
+import { add, subtract, multiply } from 'loa-package-demo';
 
 const result = add(1, 2); // 3
 const result2 = subtract(2, 1); // 1
+const result3 = multiply(2, 3); // 6
 ```
 
 ## Make changes to the package:
