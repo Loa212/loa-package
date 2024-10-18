@@ -12,8 +12,10 @@ This is a simple example of a package and it has little to no functionality.
 
 ```typescript
 import { add } from 'loa-package-demo';
+import { subtract } from 'loa-package-demo';
 
 const result = add(1, 2); // 3
+const result2 = subtract(2, 1); // 1
 ```
 
 ## Make changes to the package:
