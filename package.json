@@ -17,7 +17,7 @@
     "lint": "tsc --noEmit",
     "local-release": "changeset version && changeset publish",
     "prepublishOnly": "npm run ci",
-    "pre-release": "bumpp",
+    "bump": "bumpp",
     "ci-release": "changeset publish",
     "test": "vitest run"
   },
