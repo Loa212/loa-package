@@ -1,0 +1,22 @@
+{
+  "name": "loa-package-demo",
+  "version": "1.0.0",
+  "description": "A demo package template",
+  "keywords": [
+    "demo",
+    "typescript"
+  ],
+  "homepage": "https://github.com/Loa212/loa-package",
+  "bugs": {
+    "url": "https://github.com/Loa212/loa-package/issues"
+  },
+  "author": "Loa212 <hello@loa212.com> (https://loa212.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Loa212/loa-package.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module"
+}
