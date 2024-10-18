@@ -2,6 +2,7 @@
   "name": "loa-package-demo",
   "version": "1.0.0",
   "description": "A demo package template",
+  "license": "MIT",
   "keywords": [
     "demo",
     "typescript"
