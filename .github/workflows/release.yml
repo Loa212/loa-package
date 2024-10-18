@@ -2,16 +2,14 @@
 
 # on:
 #   push:
-#     tags:
-#       - 'v*' # Trigger on version tags
-#     branches:
-#       - main # Trigger on push to main branch
 name: Release
 
 on:
   push:
+    tags:
+      - 'v*' # Trigger on version tags
     branches:
-      - main
+      - main # Trigger on push to main branch
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
